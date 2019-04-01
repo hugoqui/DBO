@@ -8,7 +8,7 @@
     <span class="navbar-toggler-icon"></span>
   </button>
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent" >
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active" style="width:100px">
         <a class="nav-link" href=""> <span class="sr-only">(current)</span></a>
@@ -17,10 +17,10 @@
         <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">QUIÉNES SOMOS</a>
+        <a class="nav-link" href="#">¿QUIÉNES SOMOS?</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">CÓMO AYUDAR</a>
+        <a class="nav-link" href="#">¿CÓMO AYUDAR?</a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">CONTACTO</a>
