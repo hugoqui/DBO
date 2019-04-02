@@ -2,15 +2,17 @@
   <div id="app">
     <navbar> </navbar>
     <home> </home>
+    <page-footer></page-footer>
   </div>
 </template>
 
 <script>
 import Navbar from "./Navbar.vue"
 import Home from"./Home.vue"
+import PageFooter from"./PageFooter.vue"
 export default {
   components: {
-    Navbar , Home
+    Navbar , Home, PageFooter
   },
   name: 'app',
   data () {
