@@ -1,29 +1,26 @@
 <template>
-  <div id="app">
+  <div id="app">    
     <navbar> </navbar>
     <home> </home>
     <page-footer></page-footer>
+    
   </div>
 </template>
 
 <script>
-import Navbar from "./Navbar.vue"
-import Home from"./Home.vue"
-import PageFooter from"./PageFooter.vue"
+import Navbar from "./components/Navbar.vue"
+import Home from"./components/Home.vue"
+import PageFooter from"./components/PageFooter.vue"
+// import HelloWorld from './components/HelloWorld.vue'
+
 export default {
-  components: {
-    Navbar , Home, PageFooter
-  },
   name: 'app',
-  data () {
-    return {
-      msg: 'Welcome to Your Vue.js App'
-    }
+  components: {
+    Navbar , Home, PageFooter    
   }
 }
 </script>
 
-<style lang="scss">
+<style>
 
 </style>
-

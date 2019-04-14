@@ -8,7 +8,7 @@
             </blockquote> 
         </div>           
             
-        <center><img alt="Logo DBO" class="img-fluid" src="images/logob.jpeg"></center>
+        <center><img alt="Logo DBO" style="height:130px" class="img-fluid" src="images/logob.jpeg"></center>
         <br>
 
         <div class="container">
@@ -30,48 +30,37 @@
                 <br>
                     <center>VISIÓN</center>
                     <br>
-                        <center>  Alcanzar el desarrollo integral y
-                    <br>
+                    <center>  
+                        Alcanzar el desarrollo integral y
                         espiritual en personas de diferentes
-                    <br>
-                            condiciones, dificultades y
-                    <br> 
-                            necesidades físicas, materiales y
-                    <br> 
-                            emocionales de nuestra sociedad. </center>
+                        condiciones, dificultades y
+                        necesidades físicas, materiales y
+                        emocionales de nuestra sociedad. 
+                    </center>
                 </div>
                 <div class="col-sm">
-                <img width="204px" height="203px" src="images/mision.jpeg">
+                <img width="204px" height="203px" src="images/mision.jpeg">                
                 <br>
                     <center>MISIÓN</center>
                     <br>
-                            <center>Somos un Ministerio Cristocéntrico
-                    <br>  
-                                    que busca transformar y
-                    <br>
-                                    empoderar vidas de los más
-                    <br>
-                                    necesitados y rechazados por la
-                    <br> 
-                                    sociedad convencional.</center>
+                    <center>
+                        Somos un Ministerio Cristocéntrico
+                        que busca transformar y
+                        empoderar vidas de los más
+                        necesitados y rechazados por la
+                        sociedad convencional.
+                    </center>
                 </div>
                 <div class="col-sm">
                 <img width="207" height="202" src="images/quienessomos.jpeg">
                 <br>
                     <center>¿QUIÉNES SOMOS?</center> 
                     <br>
-                                    <center>Asociación DBO está conformada 
-                    <br>
-                                        por un grupo personas
-                    <br>
-                                        voluntarias, quienes son encargados
-                    <br>
-                                            de coordinar las actividades
-                    <br>    
-                                            que realiza cada uno de los
-                    <br>    
-                                            ministerios.
-                                        </center>
+                    <center>
+                        Asociación DBO está conformada por un grupo personas voluntarias, 
+                        quienes son encargados de coordinar las actividades que realiza 
+                        cada uno de los ministerios.
+                    </center>
                 </div>
             </div>
         </div>
@@ -83,7 +72,7 @@
     .header {
         height: 600px;
         padding-top:240px;
-        background-image: url('../images/home.png');
+        background-image: url('/images/home.png');
         background-size: cover;
         text-align:center;
     }
