@@ -1,26 +1,35 @@
 <template>
     <div>
-        <div class="header">
+        <div class="header parallax">
             <button> DONAR </button>            
-            <blockquote style="margin-top:100px">
-                Y el Rey responderá y les dirá: De cierto os digo que en cuanto lo hicisteis 
-                a uno de estos mis hermanos más <br> pequeños, a mí me lo hicisteis. <br> Mateo 25:40 
-            </blockquote> 
+            <div class="container">
+                <div class="row">
+                    <blockquote style="margin-top:50px;" class="col-md-6 offset-md-3">
+                        Y el Rey responderá y les dirá: De cierto os digo que en cuanto lo hicisteis 
+                        a uno de estos mis hermanos más pequeños, a mí me lo hicisteis. 
+                        <br> <strong>Mateo 25:40 </strong>
+                    </blockquote> 
+                </div>            
+            </div>
         </div>           
-            
-        <center><img alt="Logo DBO" style="height:130px" class="img-fluid" src="images/logob.jpeg"></center>
-        <br>
+        
+        <div class="text-center">
+            <img alt="Logo DBO" style="height:130px; margin:20px;" class="img-fluid" src="images/black_logo.png">
+        </div>
+        
 
         <div class="container">
-            <p class="sub-title gray-text col-md-10 offset-1"> 
-                <center>
-                    <b>
-                        Asociación DBO Ministerios se ha dedicado principalmente al trabajo en calles y        
-                        áreas de riesgo, nunca se ha pensado en menguar la ayuda brindada al prójimo,        
-                        ya que todo está fundamentado en la base bíblica de Mateo 25: 36 - 40.
-                    </b>
-                </center>
-            </p>
+            <div class="row">
+                <p class="sub-title gray-text col-md-8 offset-md-2" style="margin-top:3rem; margin-bottom:3rem"> 
+                    <center>
+                        <b>
+                            Asociación DBO Ministerios se ha dedicado principalmente al trabajo en calles y        
+                            áreas de riesgo, nunca se ha pensado en menguar la ayuda brindada al prójimo,        
+                            ya que todo está fundamentado en la base bíblica de Mateo 25: 36 - 40.
+                        </b>
+                    </center>
+                </p>
+            </div>            
         </div>
            
         <div class="container" align="center" bottom="middle">
@@ -70,9 +79,9 @@
 
 <style >
     .header {
-        height: 600px;
-        padding-top:240px;
-        background-image: url('/images/home.png');
+        height: 500px;
+        padding-top:200px;
+        background-image: url('/images/home.jpg');
         background-size: cover;
         text-align:center;
     }
@@ -86,7 +95,8 @@
       
     }
     .header blockquote{
-        color: #fff;
+        color: #fff;        
+        text-shadow: 2px 2px 3px #000;
     }
     
    .gray-text {
@@ -94,6 +104,17 @@
    }
 
    .sub-title {
-       font-size: 24px;
+       font-size: 18px;
    }
+
+   .parallax { 
+        /* Set a specific height */
+        height: 500px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
 </style>

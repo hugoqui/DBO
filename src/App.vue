@@ -1,7 +1,8 @@
 <template>
   <div id="app">    
     <navbar> </navbar>
-    <home> </home>
+    <!-- <home> </home> -->
+    <router-view></router-view>
     <page-footer></page-footer>
     
   </div>
@@ -9,14 +10,14 @@
 
 <script>
 import Navbar from "./components/Navbar.vue"
-import Home from"./components/Home.vue"
+// import Home from"./components/Home.vue"
 import PageFooter from"./components/PageFooter.vue"
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
   components: {
-    Navbar , Home, PageFooter    
+    Navbar ,  PageFooter    
   }
 }
 </script>
