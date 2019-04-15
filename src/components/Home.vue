@@ -35,28 +35,30 @@
            
         <div class="container" align="center" bottom="middle">
             <div class="row">
-                <div class="col-sm">
-                <img width="203px" height="202px" src="images/vision.jpeg">
-                <br>
-                    <center>VISION</center>
+                <div class="col-sm" v-scroll-reveal.reset="{ delay: 150, duration: 1000, opacity:0, distance:'100px' }">
+                     <img width="150" src="images/vision.jpeg">
+                     <br>
+                    <strong>VISION</strong>
                     <br>
                     <center>  
                         To achieve integral and spiritual development in people of our society with different living conditions, difficulties, physical, emotional and spiritual needs. 
                     </center>
                 </div>
-                <div class="col-sm">
-                <img width="204px" height="203px" src="images/mision.jpeg">                
-                <br>
-                    <center>MISION</center>
+
+                <div class="col-sm" v-scroll-reveal.reset="{ delay: 650, duration: 1000, opacity:0, distance:'100px' }">
+                    <img width="150" src="images/mision.jpeg">                
+                    <br>
+                    <strong>MISION</strong>
                     <br>
                     <center>
                         We are a Christ-centered ministry that seeks through our actions to transform and empower the lives of those most in need with love, power, dedication, passion, service and example.
                     </center>
                 </div>
-                <div class="col-sm">
-                <img width="207" height="202" src="images/quienessomos.jpeg">
-                <br>
-                    <center>WHO WE ARE</center> 
+
+                <div class="col-sm" v-scroll-reveal.reset="{ delay: 1250, duration: 1000, opacity:0, distance:'100px' }">
+                    <img width="150" src="images/quienessomos.jpeg">
+                    <br>
+                    <strong>WHO WE ARE</strong> 
                     <br>
                     <center>
                         Association DBO is made up of a team of Directors who coordinate the activities carried out by the Leader of each area of ministry. Each area of ministry has approximately 15-20 volunteers.
