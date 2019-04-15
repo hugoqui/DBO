@@ -8,24 +8,21 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <div class="navbar-nav mr-auto"></div>
-      <ul class="navbar-nav mr-auto">
-        <!-- <li class="nav-item active" style="width:100px">
-          <a class="nav-link" href=""> <span class="sr-only">(current)</span></a>
-        </li> -->
-        <li class="nav-item active">
-          <a class="nav-link" href="#">INICIO <span class="sr-only">(current)</span></a>
+      <ul class="navbar-nav mr-auto">        
+        <li class="nav-item">
+          <router-link active-class="active" class="nav-link" to="/" exact>HOME</router-link>          
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">¿QUIÉNES SOMOS?</a>
+          <router-link active-class="active" class="nav-link" to="about">ABOUT US</router-link>          
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">¿CÓMO AYUDAR?</a>
+          <a class="nav-link" href="#">HOW CAN I HELP?</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">CONTACTO</a>
+          <a class="nav-link" href="#">CONTACT US</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">DONACIONES</a>
+          <a class="nav-link" href="#">DONATIONS</a>
         </li>
         
       </ul>

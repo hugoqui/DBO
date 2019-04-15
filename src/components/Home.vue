@@ -1,16 +1,17 @@
 <template>
     <div>
-        <div class="header parallax">
-            <button> DONAR </button>            
-            <div class="container">
-                <div class="row">
-                    <blockquote style="margin-top:50px;" class="col-md-6 offset-md-3">
-                        Y el Rey responderá y les dirá: De cierto os digo que en cuanto lo hicisteis 
-                        a uno de estos mis hermanos más pequeños, a mí me lo hicisteis. 
-                        <br> <strong>Mateo 25:40 </strong>
-                    </blockquote> 
-                </div>            
-            </div>
+        <div class="header parallax" style="background-image: url('/images/home.jpg');">
+            <div class="offset-md-6 col-md-5">
+                <div class="container">
+                    <div class="row" style="text-align:center">
+                        <button> DONATE </button>            
+                        <blockquote style="margin-top:50px;" class=" offset-1 col-10 offset-sm-0">
+                            And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me. 
+                            <br> <strong>Matthew 25:40 </strong>
+                        </blockquote> 
+                    </div>            
+                </div>
+            </div>            
         </div>           
         
         <div class="text-center">
@@ -23,9 +24,9 @@
                 <p class="sub-title gray-text col-md-8 offset-md-2" style="margin-top:3rem; margin-bottom:3rem"> 
                     <center>
                         <b>
-                            Asociación DBO Ministerios se ha dedicado principalmente al trabajo en calles y        
-                            áreas de riesgo, nunca se ha pensado en menguar la ayuda brindada al prójimo,        
-                            ya que todo está fundamentado en la base bíblica de Mateo 25: 36 - 40.
+                            DBO Ministries has mainly worked with homless and people in risk areas.  <br>
+                            We have never thought of decreasing the help we give to our neighbor,
+                            since this is founded in our biblical base. Matthew 25: 36-40                            
                         </b>
                     </center>
                 </p>
@@ -37,38 +38,28 @@
                 <div class="col-sm">
                 <img width="203px" height="202px" src="images/vision.jpeg">
                 <br>
-                    <center>VISIÓN</center>
+                    <center>VISION</center>
                     <br>
                     <center>  
-                        Alcanzar el desarrollo integral y
-                        espiritual en personas de diferentes
-                        condiciones, dificultades y
-                        necesidades físicas, materiales y
-                        emocionales de nuestra sociedad. 
+                        To achieve integral and spiritual development in people of our society with different living conditions, difficulties, physical, emotional and spiritual needs. 
                     </center>
                 </div>
                 <div class="col-sm">
                 <img width="204px" height="203px" src="images/mision.jpeg">                
                 <br>
-                    <center>MISIÓN</center>
+                    <center>MISION</center>
                     <br>
                     <center>
-                        Somos un Ministerio Cristocéntrico
-                        que busca transformar y
-                        empoderar vidas de los más
-                        necesitados y rechazados por la
-                        sociedad convencional.
+                        We are a Christ-centered ministry that seeks through our actions to transform and empower the lives of those most in need with love, power, dedication, passion, service and example.
                     </center>
                 </div>
                 <div class="col-sm">
                 <img width="207" height="202" src="images/quienessomos.jpeg">
                 <br>
-                    <center>¿QUIÉNES SOMOS?</center> 
+                    <center>WHO WE ARE</center> 
                     <br>
                     <center>
-                        Asociación DBO está conformada por un grupo personas voluntarias, 
-                        quienes son encargados de coordinar las actividades que realiza 
-                        cada uno de los ministerios.
+                        Association DBO is made up of a team of Directors who coordinate the activities carried out by the Leader of each area of ministry. Each area of ministry has approximately 15-20 volunteers.
                     </center>
                 </div>
             </div>
@@ -80,23 +71,26 @@
 <style >
     .header {
         height: 500px;
-        padding-top:200px;
-        background-image: url('/images/home.jpg');
+        padding-top:200px;        
         background-size: cover;
+        background-position-x: left;
         text-align:center;
     }
 
     .header button {
         padding:20px;
-        background: rgba(255,255,255,0.4);
+        background: rgba(255,255,255,0.6);
         border: solid 2px #fff;
         width:300px;
-        color:#fff;      
-      
+        color:#000;      
+        margin:auto;
+        font-weight: bold;
     }
     .header blockquote{
         color: #fff;        
-        text-shadow: 2px 2px 3px #000;
+        text-shadow: 0px 0px 3px #000000;
+        margin-left: auto;
+        margin-right: auto;
     }
     
    .gray-text {
@@ -116,5 +110,8 @@
         background-position: top;
         background-repeat: no-repeat;
         background-size: cover;
+        margin:0;
     }
+
+    .active { font-weight: bold; border-bottom: 2px solid #000}
 </style>

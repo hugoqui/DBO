@@ -1,18 +1,10 @@
 import Vue from 'vue'
-import Router from 'vue-router';
 import App from './App.vue'
-
-import Home from './components/Home.vue'
+import router from './router'
 
 Vue.config.productionTip = false
 
-export default new Router({
-  routes: [
-      { path: '/', component: Home }
-  ]
-});
-
 new Vue({
-  routes,
+  router,
   render: h => h(App),
 }).$mount('#app')
