@@ -24,4 +24,19 @@ export default {
 
 <style>
 
+html,body{overflow-x: hidden;}
+
+.bg-yellow{background: #FFC11C;}
+.yellow {color:#FFC11C}
+
+.bg-white {background: #ffffff;}
+.white {color: #ffffff !important;}
+
+.bg-dark {background: #202020 !important;}
+.dark {color: #202020 !important;}
+
+.bg-black {background: #000;}
+.black {color: #000;}
+
+.bold{font-weight: bold;}
 </style>

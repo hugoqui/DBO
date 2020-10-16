@@ -1,12 +1,12 @@
 <template>
     <div id="footer" >
-        <div style="background:#F8ED57; height:25px"></div>
-        <div class="container" style="padding:20px 0px;">
+        <div class="bg-yellow" style="height:25px"></div>
+        <div class="container yellow" style="padding:20px 0px;">
             <div class="row">
                 <div class="col-md-6">
                     <p style="padding:10px">
                         Numero de Asociación: 34567890 <br>
-                        Términos y Condiciones | Polícia de Privacidad <br>
+                        Términos y Condiciones | Política de Privacidad <br>
                         © DBO Ministerios, 2019
                     </p>
                 </div>
@@ -25,7 +25,7 @@
 
 <style>
     #footer{
-        margin-top: 80px;        
-        background: #C4C4C4;        
+        /* margin-top: 80px;         */
+        background: #000000;        
     }
 </style>

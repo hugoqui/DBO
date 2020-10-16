@@ -19,7 +19,7 @@
         </div>
 
         <div class="container">
-            <h1 class="text-secondary text-center border-bottom">NUESTRO EQUIPO</h1>
+            <h1 class="text-secondary text-center border-bottom">OUR TEAM</h1>
 
             <div class="row border-bottom">
                 <div class="col-md-3"  v-scroll-reveal.reset="{ delay: 350, distance: '200px', scale:1.5 }">
