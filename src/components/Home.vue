@@ -23,7 +23,7 @@
             <div class="text-center m-3">
                 <img alt="Logo DBO" style="height:130px; margin:20px;" class="img-fluid" src="images/black_logo.png">
             </div>            
-            <div class="row text-center dark bold bg-dark">
+            <div class="row text-center dark bold bg-dark" style="height:50px;">
                 <div class="col yellow m-2">LOVE</div>
                 <div class="col yellow m-2">PASSION</div>
                 <div class="col yellow m-2">SERVICE</div>
