@@ -1,10 +1,7 @@
 <template>
   <div>
-    <div
-      id="carouselExampleSlidesOnly"
-      class="carousel slide"
-      data-ride="carousel"
-    >
+    <!-- carousel -->
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
       <div class="carousel-inner" style="height: 95vh">
         <div class="carousel-item active">
           <img
@@ -48,6 +45,7 @@
       </a>
     </div>
 
+    <!-- passion. love bar -->
     <div class="container-fluid border">
       <div class="text-center m-3">
         <img
@@ -64,6 +62,7 @@
       </div>
     </div>
 
+    <!-- newsletter -->
     <div class="container">
       <div class="row mt-4">
         <div class="col-md-7">
@@ -97,18 +96,8 @@
       </div>
     </div>
 
-    <div
-      class="mt-5 mb-5 header parallax map-container"
-      style="
-        padding: 3rem;
-        background-image: linear-gradient(
-            to bottom,
-            rgba(0, 0, 0, 0.52),
-            rgba(0, 0, 0, 0.73)
-          ),
-          url('https://blog.compassion.com/wp-content/uploads/2011/04/Easter-in-Guatemala-feature.jpg');
-      "
-    >
+    <!-- map section -->
+    <div class="mt-5 mb-5 header parallax map-container" style="padding: 3rem;background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.73)),url('https://blog.compassion.com/wp-content/uploads/2011/04/Easter-in-Guatemala-feature.jpg');">
       <div class="container">
         <div class="row">
           <div class="col-md-5 offset-md-1">
@@ -123,17 +112,11 @@
       </div>
     </div>
 
+
+    <!-- mission vision meaning -->
     <div class="container" align="center" bottom="middle">
       <div class="row">
-        <div
-          class="col-sm"
-          v-scroll-reveal.reset="{
-            delay: 150,
-            duration: 1000,
-            opacity: 0,
-            distance: '100px',
-          }"
-        >
+        <div class="col-sm" v-scroll-reveal.reset="{delay: 150, duration: 1000, opacity: 0, distance: '100px',}">
           <img width="150" src="images/vision.jpeg" />
           <br />
           <strong>VISION</strong>
@@ -145,15 +128,7 @@
           </center>
         </div>
 
-        <div
-          class="col-sm"
-          v-scroll-reveal.reset="{
-            delay: 650,
-            duration: 1000,
-            opacity: 0,
-            distance: '100px',
-          }"
-        >
+        <div class="col-sm" v-scroll-reveal.reset="{delay: 650, duration: 1000, opacity: 0, distance: '100px',}">
           <img width="150" src="images/mision.jpeg" />
           <br />
           <strong>MISION</strong>
@@ -165,15 +140,7 @@
           </center>
         </div>
 
-        <div
-          class="col-sm"
-          v-scroll-reveal.reset="{
-            delay: 1250,
-            duration: 1000,
-            opacity: 0,
-            distance: '100px',
-          }"
-        >
+        <div class="col-sm" v-scroll-reveal.reset="{delay: 1250,duration: 1000,opacity: 0,distance: '100px',}">
           <img width="150" src="images/quienessomos.jpeg" />
           <br />
           <strong>WHAT DOES DBO MEAN</strong>
@@ -189,54 +156,70 @@
         </div>
       </div>
     </div>
-    <div class="title-">
-      <h3 style="text-align: center; margin-top:8%;">HOW YOUR SUPPORT HAS AN IMPACT</h3>
-    </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <div class="apoyo">
-                        <strong> NUTRITION </strong>
-                        <p>
-                            Until today, during the year the percentage of malnutrition in
-                            Guatemala has risen by approximately 200% according to statistics
-                            from the Ministry of Public Health. Unfortunately, for the
-                            national reality, these are not cases that refer to rural areas of
-                            the country but also extend to urban areas.
-                        </p>
-                    </div>   
-                    <strong> EDUCATION </strong>
-                    <p>
-                        Faced with the current problem, school dropout has been an
-                        important factor, with data that according to the mineduc reach
-                        almost 35% of children who have dropped out of the educational
-                        system. Children have been violated and affected by the lack of
-                        opportunities in the national reality.
-                    </p>>
-                    <strong> FAMILY </strong>
-                    <p>
-                        Households in Guatemala in the last 3 years have approximately
-                        25,000; the latent pain and unofficial disintegration of marriages
-                        that separate, but do not divorce is one of the great conflicts
-                        which are also one of the main risk factors for children to be
-                        involved in gangs.  
-                    </p>
-                    <strong> OUR ANSWER </strong>
-                    <p>
-                        By identifying these needs we cannot remain without an answer, our
-                        call and mission prompts us each day to love and serve God as well
-                        as our neighbor.
-                    </p>
-                    <strong> YOUR CONTRIBUTION </strong>
-                    <p>
-                        Your contribution can make a difference and promote help for young
-                        people at risk, who through DBO can receive an opportunity to
-                        study, food or a solid circle of friends that can guide them to
-                        know Jesus
-                    </p>
-                </div>
-            </div>
+
+
+    <!-- how your support impact -->
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-12 text-center mt-5 mb-5">          
+          <h1>HOW YOUR SUPPORT HAS AN IMPACT</h1>
         </div>
+      </div>
+
+      <div class="row text-center">
+          <div class="col-md-4">              
+            <strong> NUTRITION </strong>
+            <p>
+                Until today, during the year the percentage of malnutrition in
+                Guatemala has risen by approximately 200% according to statistics
+                from the Ministry of Public Health. Unfortunately, for the
+                national reality, these are not cases that refer to rural areas of
+                the country but also extend to urban areas.
+            </p>
+          </div>
+
+          <div class="col-md-4">           
+            <strong> EDUCATION </strong>
+            <p>
+                Faced with the current problem, school dropout has been an
+                important factor, with data that according to the mineduc reach
+                almost 35% of children who have dropped out of the educational
+                system. Children have been violated and affected by the lack of
+                opportunities in the national reality.
+            </p>
+          </div>
+
+          <div class="col-md-4">
+              <strong> FAMILY </strong>
+              <p>
+                  Households in Guatemala in the last 3 years have approximately
+                  25,000; the latent pain and unofficial disintegration of marriages
+                  that separate, but do not divorce is one of the great conflicts
+                  which are also one of the main risk factors for children to be
+                  involved in gangs.  
+              </p>
+          </div>
+
+          <div class="col-md-6">
+              <strong> OUR ANSWER </strong>
+              <p>
+                  By identifying these needs we cannot remain without an answer, our
+                  call and mission prompts us each day to love and serve God as well
+                  as our neighbor.
+              </p>
+          </div>
+
+          <div class="col-md-6">
+              <strong> YOUR CONTRIBUTION </strong>
+              <p>
+                  Your contribution can make a difference and promote help for young
+                  people at risk, who through DBO can receive an opportunity to
+                  study, food or a solid circle of friends that can guide them to
+                  know Jesus
+              </p>
+          </div>
+      </div>
+    </div>
     
 
     <div class="mt-5 header parallax map-container" style="padding: 3rem;background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.73)),url('https://www.savethechildren.org/content/dam/global/images/countries/guatemala/guatemala-girls-m173492-hero.jpg/_jcr_content/renditions/cq5dam.thumbnail.1700.1700.jpg');">
@@ -249,50 +232,34 @@
                 </div>
 
                 <div class="col-md-4 text-white">
-                    <img
-                    src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png"
-                    class="img-fluid rounded-circle"
-                    alt="DBO"
-                    >
+                    <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO">
                     <p class="m-2 mt-4">
-                    Every day thousands of children go hungry in the mountains of
-                    Guatemala due to poverty and drought.
+                      Every day thousands of children go hungry in the mountains of
+                      Guatemala due to poverty and drought.
                     </p>
                     <p>
-                    However, this year alone, you will help feed over 1.5 million
-                    people through our programs.
+                      However, this year alone, you will help feed over 1.5 million
+                      people through our programs.
                     </p>
                 </div>
 
                 <div class="col-md-4 text-white">
-                    <img
-                    src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle2.png"
-                    class="img-fluid rounded-circle"
-                    alt="DBO"
-                    />
+                    <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle2.png" class="img-fluid rounded-circle" alt="DBO"/>
                     <p class="m-2 mt-4">
-                    Did you know that just $1 can provide clean water to a child for 1
-                    year?
+                      Did you know that just $1 can provide clean water to a child for 1year?
                     </p>
                     <p>
-                    Thousands of lives have been saved, because of your generous
-                    giving to clean water projects!
+                      Thousands of lives have been saved, because of your generous giving to clean water projects!
                     </p>
                 </div>
 
                 <div class="col-md-4 text-white">
-                    <img
-                    src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/mainrescuebutton1.jpg"
-                    class="img-fluid rounded-circle"
-                    alt="DBO"
-                    />
+                    <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/mainrescuebutton1.jpg" class="img-fluid rounded-circle" alt="DBO"/>
                     <p class="m-2 mt-4">
-                    You can be the lifeline to a child who is desperate for help in
-                    the mountains of Guatemala.
+                      You can be the lifeline to a child who is desperate for help in the mountains of Guatemala.
                     </p>
                     <p>
-                        Dirty water, malnutrition, and disease are ravaging the next
-                        generation- but you can change that!
+                        Dirty water, malnutrition, and disease are ravaging the next generation- but you can change that!
                     </p>
                 </div>
             </div>
