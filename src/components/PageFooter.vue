@@ -1,22 +1,43 @@
 <template>
     <div id="footer" >
-        <div class="bg-yellow" style="height:25px"></div>
+        <div class="bg-yellow" style="height:20px"></div>
         <div class="container yellow" style="padding:20px 0px;">
-            <div class="row">
-                <div class="col-md-6">
-                    <p style="padding:10px">
-                        Numero de Asociación: 34567890 <br>
-                        Términos y Condiciones | Política de Privacidad <br>
-                        © DBO Ministerios, 2019
-                    </p>
+            <div class="row mt-5 mb-5">
+                <div class="col-md-3">
+                    <h3>IMPACT</h3>
+                    <router-link to="/" class="pill yellow">Child Rescue</router-link>
+                    <router-link to="/" class="pill yellow">Clean Water</router-link>
+                    <router-link to="/" class="pill yellow">Container Shipping</router-link>
+                    <router-link to="/" class="pill yellow">Total Village Transformation</router-link>
                 </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <div class="col-2"><img src="images/fb-icon.png" class="img-fluid" alt="facebook"></div>
-                        <div class="col-2"><img src="images/twt-icon.png" class="img-fluid" alt="twitter"></div>
-                        <div class="col-2"><img src="images/inst-icon.png" class="img-fluid" alt="instagram"></div>
-                        <div class="col-4"><img src="images/paypal-icon.png" class="img-fluid" alt="paypal"></div>
-                    </div>
+                
+                
+                <div class="col-md-3">
+                    <h3>ABOUT</h3>
+                    <router-link to="/" class="pill yellow">Our Mission</router-link>
+                    <router-link to="/" class="pill yellow">Our Strategy</router-link>
+                    <router-link to="/" class="pill yellow">Our Leadership</router-link>
+                    <router-link to="/" class="pill yellow">Our Story</router-link>
+                </div>
+                
+                <div class="col-md-3">
+                    <h3>SPONSOR</h3>
+                    <router-link to="/" class="pill yellow">Child Sponsorship</router-link>
+                    <router-link to="/" class="pill yellow">Sponsorship FAQ's</router-link>
+                    <router-link to="/" class="pill yellow">How it works</router-link>                    
+                </div>
+
+                <div class="col-md-3">
+                    <p style="padding:10px">
+                        <i class="mr-4 fab fa-facebook fa-2x"></i>
+                        <i class="mr-4 fab fa-youtube fa-2x"></i> 
+                        <i class="mr-4 fab fa-paypal fa-2x"></i> <br>
+
+                        <p class="mt-5">
+                            +502 34567890 <br>                       
+                            © DBO Ministerios, 2020
+                        </p>
+                    </p>
                 </div>
             </div>
         </div>
@@ -27,5 +48,16 @@
     #footer{
         /* margin-top: 80px;         */
         background: #000000;        
+    }
+
+    .pill {
+        display: block;
+        margin-top: 1rem;
+        min-height: 2rem;
+    }
+
+    .pill:hover{
+        color:#ddd;
+        text-decoration: none;
     }
 </style>

@@ -1,28 +1,19 @@
 <template>
   <div>
     <!-- carousel -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" >
-      <div class="carousel-inner" style="height: 95vh">
+    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel" >
+      <div class="carousel-inner" style="height: 100vh">
         <div class="carousel-item active">
-          <img
-            src="https://llandscapes-10674.kxcdn.com/wp-content/uploads/2019/07/lighting.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="images/bg1.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img
-            src="https://landscapephotographymagazine.com/wp-content/uploads/2012/05/Impressionism-And-Landscape-Photography-600x336.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="images/bg2.jpg" class="d-block w-100" alt="..." />
         </div>
         <div class="carousel-item">
-          <img
-            src="https://i.vimeocdn.com/video/703876203_1280x720.jpg"
-            class="d-block w-100"
-            alt="..."
-          />
+          <img src="images/bg3.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="images/bg4.jpg" class="d-block w-100" alt="..." />
         </div>
       </div>
       <a
@@ -47,14 +38,14 @@
 
     <!-- passion. love bar -->
     <div class="container-fluid border">
-      <div class="text-center m-3">
+      <!-- <div class="text-center m-3">
         <img
           alt="Logo DBO"
           style="height: 130px; margin: 20px"
           class="img-fluid"
           src="images/black_logo.png"
         />
-      </div>
+      </div> -->
       <div class="row text-center dark bold bg-dark p-3" style="height: 4rem">
         <div class="col yellow m-2">LOVE</div>
         <div class="col yellow m-2">PASSION</div>
@@ -159,113 +150,74 @@
 
 
     <!-- how your support impact -->
-    <div class="container mt-5 mb-5">
+    <div class="mt-5 header parallax map-container text-white" style="height:auto;padding: 3rem;background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.73)),url('https://www.savethechildren.org/content/dam/global/images/countries/guatemala/guatemala-girls-m173492-hero.jpg/_jcr_content/renditions/cq5dam.thumbnail.1700.1700.jpg');">
       <div class="row">
         <div class="col-12 text-center mt-5 mb-5">          
-          <h1>HOW YOUR SUPPORT HAS AN IMPACT</h1>
+          <h1 class="text-capitalize">How your support has an impact</h1>
         </div>
       </div>
 
       <div class="row text-center">
-          <div class="col-md-4">              
-            <strong> NUTRITION </strong>
+        <div class="col-md-4">          
+          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
+          <h5 class="mt-3 bold"> NUTRITION </h5>
+          <p>
+              Until today, during the year the percentage of malnutrition in
+              Guatemala has risen by approximately 200% according to statistics
+              from the Ministry of Public Health. Unfortunately, for the
+              national reality, these are not cases that refer to rural areas of
+              the country but also extend to urban areas.
+          </p>
+        </div>
+
+        <div class="col-md-4">           
+          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
+          <h5 class="mt-3 bold"> EDUCATION </h5>
+          <p>
+              Faced with the current problem, school dropout has been an
+              important factor, with data that according to the mineduc reach
+              almost 35% of children who have dropped out of the educational
+              system. Children have been violated and affected by the lack of
+              opportunities in the national reality.
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
+            <h5 class="mt-3 bold"> FAMILY </h5>
             <p>
-                Until today, during the year the percentage of malnutrition in
-                Guatemala has risen by approximately 200% according to statistics
-                from the Ministry of Public Health. Unfortunately, for the
-                national reality, these are not cases that refer to rural areas of
-                the country but also extend to urban areas.
+                Households in Guatemala in the last 3 years have approximately
+                25,000; the latent pain and unofficial disintegration of marriages
+                that separate, but do not divorce is one of the great conflicts
+                which are also one of the main risk factors for children to be
+                involved in gangs.  
             </p>
-          </div>
+        </div>
 
-          <div class="col-md-4">           
-            <strong> EDUCATION </strong>
+        <div class="col-md-6">
+            <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
+            <h5 class="mt-3 bold"> OUR ANSWER </h5>
             <p>
-                Faced with the current problem, school dropout has been an
-                important factor, with data that according to the mineduc reach
-                almost 35% of children who have dropped out of the educational
-                system. Children have been violated and affected by the lack of
-                opportunities in the national reality.
+                By identifying these needs we cannot remain without an answer, our
+                call and mission prompts us each day to love and serve God as well
+                as our neighbor.
             </p>
-          </div>
+        </div>
 
-          <div class="col-md-4">
-              <strong> FAMILY </strong>
-              <p>
-                  Households in Guatemala in the last 3 years have approximately
-                  25,000; the latent pain and unofficial disintegration of marriages
-                  that separate, but do not divorce is one of the great conflicts
-                  which are also one of the main risk factors for children to be
-                  involved in gangs.  
-              </p>
-          </div>
-
-          <div class="col-md-6">
-              <strong> OUR ANSWER </strong>
-              <p>
-                  By identifying these needs we cannot remain without an answer, our
-                  call and mission prompts us each day to love and serve God as well
-                  as our neighbor.
-              </p>
-          </div>
-
-          <div class="col-md-6">
-              <strong> YOUR CONTRIBUTION </strong>
-              <p>
-                  Your contribution can make a difference and promote help for young
-                  people at risk, who through DBO can receive an opportunity to
-                  study, food or a solid circle of friends that can guide them to
-                  know Jesus
-              </p>
-          </div>
+        <div class="col-md-6">
+          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
+            <h5 class="mt-3 bold"> YOUR CONTRIBUTION </h5>
+            <p>
+                Your contribution can make a difference and promote help for young
+                people at risk, who through DBO can receive an opportunity to
+                study, food or a solid circle of friends that can guide them to
+                know Jesus
+            </p>
+        </div>
       </div>
     </div>
     
 
-    <div class="mt-5 header parallax map-container" style="padding: 3rem;background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.73)),url('https://www.savethechildren.org/content/dam/global/images/countries/guatemala/guatemala-girls-m173492-hero.jpg/_jcr_content/renditions/cq5dam.thumbnail.1700.1700.jpg');">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center text-white mt-5 mb-5">
-                        How Your Support Makes an Impact
-                    </h1>
-                </div>
-
-                <div class="col-md-4 text-white">
-                    <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO">
-                    <p class="m-2 mt-4">
-                      Every day thousands of children go hungry in the mountains of
-                      Guatemala due to poverty and drought.
-                    </p>
-                    <p>
-                      However, this year alone, you will help feed over 1.5 million
-                      people through our programs.
-                    </p>
-                </div>
-
-                <div class="col-md-4 text-white">
-                    <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle2.png" class="img-fluid rounded-circle" alt="DBO"/>
-                    <p class="m-2 mt-4">
-                      Did you know that just $1 can provide clean water to a child for 1year?
-                    </p>
-                    <p>
-                      Thousands of lives have been saved, because of your generous giving to clean water projects!
-                    </p>
-                </div>
-
-                <div class="col-md-4 text-white">
-                    <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/mainrescuebutton1.jpg" class="img-fluid rounded-circle" alt="DBO"/>
-                    <p class="m-2 mt-4">
-                      You can be the lifeline to a child who is desperate for help in the mountains of Guatemala.
-                    </p>
-                    <p>
-                        Dirty water, malnutrition, and disease are ravaging the next generation- but you can change that!
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>   
-    
 </div>
 </template>
 
