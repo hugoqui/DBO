@@ -159,7 +159,7 @@
         </div>
 
         <div class="col-md-4">
-          <img src="images/education.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
+          <img src="images/family.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
           <h5 class="mt-3 bold"> FAMILIa </h5>
           <p>
             Los hogares en Guatemala en los últimos 3 años aproximadamente se registran 25,000; el dolor latente y la desintegración extraoficial de matrimonios que se separan, pero no divorcian es uno de los grandes conflictos los cuales también son uno de los principales factores de riesgo para que niños sean involucrados en las pandillas.
