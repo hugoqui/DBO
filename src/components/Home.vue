@@ -1,36 +1,36 @@
 <template>
   <div>
     <!-- carousel -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-ride="carousel" >
-      <div class="carousel-inner" style="height: 100vh">
+    <div id="carouselExampleSlidesOnly"  class="carousel slide carousel-fade" data-ride="carousel" >
+
+      <ol class="carousel-indicators">
+        <li style="width:15px; height:15px; border-radius:50%" data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li style="width:15px; height:15px; border-radius:50%" data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li style="width:15px; height:15px; border-radius:50%" data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        <li style="width:15px; height:15px; border-radius:50%" data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+      </ol>
+
+
+      <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="images/bg1.jpg" class="d-block w-100" alt="..." />
+          <!-- <img src="images/bg1.jpg"  alt="..." /> -->
+          <div style="background-image:url(images/bg1.jpg); background-size:cover; height:100vh"/>
         </div>
         <div class="carousel-item">
-          <img src="images/bg2.jpg" class="d-block w-100" alt="..." />
+          <div style="background-image:url(images/bg2.jpg); background-size:cover; height:100vh"/>
         </div>
         <div class="carousel-item">
-          <img src="images/bg3.jpg" class="d-block w-100" alt="..." />
+          <div style="background-image:url(images/bg3.jpg); background-size:cover; height:100vh"/>
         </div>
         <div class="carousel-item">
-          <img src="images/bg4.jpg" class="d-block w-100" alt="..." />
+          <div style="background-image:url(images/bg4.jpg); background-size:cover; height:100vh"/>
         </div>
       </div>
-      <a
-        class="carousel-control-prev"
-        href="#carouselExampleSlidesOnly"
-        role="button"
-        data-slide="prev"
-      >
+      <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
-      <a
-        class="carousel-control-next"
-        href="#carouselExampleSlidesOnly"
-        role="button"
-        data-slide="next"
-      >
+      <a class="carousel-control-next" href="#carouselExampleSlidesOnly" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
@@ -38,18 +38,11 @@
 
     <!-- passion. love bar -->
     <div class="container-fluid border">
-      <!-- <div class="text-center m-3">
-        <img
-          alt="Logo DBO"
-          style="height: 130px; margin: 20px"
-          class="img-fluid"
-          src="images/black_logo.png"
-        />
-      </div> -->
-      <div class="row text-center dark bold bg-dark p-3" style="height: 4rem">
-        <div class="col yellow m-2">LOVE</div>
-        <div class="col yellow m-2">PASSION</div>
-        <div class="col yellow m-2">SERVICE</div>
+      
+      <div class="row text-center dark bold bg-dark p-3" style="height: 4rem; font-size:1.2rem">
+        <div class="col yellow m-2">AMOR</div>
+        <div class="col yellow m-2">PASION</div>
+        <div class="col yellow m-2">SERVICIO</div>
       </div>
     </div>
 
@@ -68,20 +61,14 @@
         </div>
         <div class="col-md-5">
           <p class="dark">
-            DBO ministries is working with the children, youth and community of
-            Chimaltenango, Antigua Guatemala and Quiche, focusing our function
-            on integral development by providing food, education, health, human
-            formation, counseling and evangelism. <br />
-            <br />
-            We have mainly dedicated ourselves to work in streets and risk
-            areas, covering basic and human needs that everyone needs, but not
-            everyone has.
-            <br />
-            <b> Matthew 25: 36-40</b>
+            DBO ministerios está trabajando con la niñez, juventud y comunidad de Chimaltenango, Antigua Guatemala y Quiche, enfocando nuestra función en el desarrollo integral proveyendo alimentación, educación, salud, formación humana, consejería y evangelismo.
+          </p>
+          <p>
+            Nos hemos dedicado principalmente al trabajo en calles y áreas de riesgo cubriendo necesidades básicas y humanas que todos necesitas, pero no todos poseen. 
           </p>
 
           <button class="btn btn-warning text-white btn-lg">
-            SUSCRIBE TO OUR NEWSLETTER
+            Suscríbete a Nuestro Boletín de Noticias!
           </button>
         </div>
       </div>
@@ -92,7 +79,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 offset-md-1">
-            <h1 class="text-center text-white">Where We Work</h1>
+            <h1 class="text-center text-white">Donde Trabajamos</h1>
             <map-vue class="" @showinfo="showInfoDeparment($event)" />
           </div>
           <div class="col-md-5 text-white">
@@ -108,11 +95,11 @@
     <div class="container" align="center" bottom="middle">
       <div class="row">
         <div class="col-sm" v-scroll-reveal.reset="{delay: 150, duration: 1000, opacity: 0, distance: '100px',}">
-          <img width="150" src="images/vision.jpeg" />
+          <img width="150" src="images/vision.png" class="mb-3" />
           <br />
           <strong>VISION</strong>
           <br />
-          <center>
+          <center class="mt-2">
             To achieve integral and spiritual development in people of our
             society with different living conditions, difficulties, physical,
             emotional and spiritual needs.
@@ -120,11 +107,11 @@
         </div>
 
         <div class="col-sm" v-scroll-reveal.reset="{delay: 650, duration: 1000, opacity: 0, distance: '100px',}">
-          <img width="150" src="images/mision.jpeg" />
+          <img width="150" src="images/mision.png" class="mb-3" />
           <br />
           <strong>MISION</strong>
           <br />
-          <center>
+          <center class="mt-2">
             We are a Christ-centered ministry that seeks through our actions to
             transform and empower the lives of those most in need with love,
             power, dedication, passion, service and example.
@@ -132,17 +119,13 @@
         </div>
 
         <div class="col-sm" v-scroll-reveal.reset="{delay: 1250,duration: 1000,opacity: 0,distance: '100px',}">
-          <img width="150" src="images/quienessomos.jpeg" />
+          <img width="150" src="images/quienessomos.jpeg" class="mb-3" />
           <br />
           <strong>WHAT DOES DBO MEAN</strong>
           <br />
-          <center>
-            A family, made up of many people with a vision of power through
-            service, establish relationships with people from children,
-            adolescents, youth and adults. What it represents is a proposal for
-            change, service and love for others. An opportunity for the great
-            needs of humanity. It promotes the message of Jesus Christ as its
-            main banner.
+          <center class="mt-2">
+            Una familia, integrada por muchas personas con una visión de poder a través del servicio entablar relaciones con personas desde niños, adolescentes, jóvenes y adultos. 
+            Lo que representa es una propuesta de cambio, servicio y amor al prójimo. Una oportunidad para las grandes necesidades de la humanidad. Promueve el mensaje de Jesucristo como su principal bandera.
           </center>
         </div>
       </div>
@@ -159,59 +142,43 @@
 
       <div class="row text-center">
         <div class="col-md-4">          
-          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
-          <h5 class="mt-3 bold"> NUTRITION </h5>
+          <img src="images/nutricion.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
+          <h5 class="mt-3 bold text-uppercase"> Nutrición </h5>
           <p>
-              Until today, during the year the percentage of malnutrition in
-              Guatemala has risen by approximately 200% according to statistics
-              from the Ministry of Public Health. Unfortunately, for the
-              national reality, these are not cases that refer to rural areas of
-              the country but also extend to urban areas.
+              Hasta el día de hoy durante el año el porcentaje de desnutrición en Guatemala ha subido un 200% aproximadamente según estadísticas del ministerio de salud publica. Para la realidad nacional lamentablemente estos no son casos que remiten a las áreas rurales del país si no también se extiende a las áreas urbanas. 
           </p>
         </div>
 
         <div class="col-md-4">           
-          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
-          <h5 class="mt-3 bold"> EDUCATION </h5>
+          <img src="images/education.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
+          <h5 class="mt-3 bold"> EDUCACIÓN </h5>
           <p>
-              Faced with the current problem, school dropout has been an
-              important factor, with data that according to the mineduc reach
-              almost 35% of children who have dropped out of the educational
-              system. Children have been violated and affected by the lack of
-              opportunities in the national reality.
+            Ante la problemática actual la deserción escolar ha sido un factor importante, con datos que según el mineduc alcanzan casi un 35% de niños que han abandonado el sistema educativo.
+            La niñez ha sido vulnerada y afectada por la falta de oportunidades de la realidad nacional.
           </p>
         </div>
 
         <div class="col-md-4">
-          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
-            <h5 class="mt-3 bold"> FAMILY </h5>
+          <img src="images/education.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
+          <h5 class="mt-3 bold"> FAMILIa </h5>
+          <p>
+            Los hogares en Guatemala en los últimos 3 años aproximadamente se registran 25,000; el dolor latente y la desintegración extraoficial de matrimonios que se separan, pero no divorcian es uno de los grandes conflictos los cuales también son uno de los principales factores de riesgo para que niños sean involucrados en las pandillas.
+          </p>
+        </div>
+
+        <div class="col-md-4">
+            <img src="images/answer.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
+            <h5 class="mt-3 bold"> NUESTRA RESPUESTA </h5>
             <p>
-                Households in Guatemala in the last 3 years have approximately
-                25,000; the latent pain and unofficial disintegration of marriages
-                that separate, but do not divorce is one of the great conflicts
-                which are also one of the main risk factors for children to be
-                involved in gangs.  
+              Al identificar estas necesidades no podemos quedarnos sin una respuesta nuestro llamado y misión nos impulsa cada día para amar y servir a Dios tanto como al prójimo.
             </p>
         </div>
 
-        <div class="col-md-6">
-            <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
-            <h5 class="mt-3 bold"> OUR ANSWER </h5>
+        <div class="col-md-4">
+          <img src="images/contribution.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
+            <h5 class="mt-3 bold"> TU CONTRIBUCIÓN </h5>
             <p>
-                By identifying these needs we cannot remain without an answer, our
-                call and mission prompts us each day to love and serve God as well
-                as our neighbor.
-            </p>
-        </div>
-
-        <div class="col-md-6">
-          <img src="https://www.hopeoflifeintl.org/wp-content/uploads/2015/06/circle1.png" class="img-fluid rounded-circle" alt="DBO"> <br>    
-            <h5 class="mt-3 bold"> YOUR CONTRIBUTION </h5>
-            <p>
-                Your contribution can make a difference and promote help for young
-                people at risk, who through DBO can receive an opportunity to
-                study, food or a solid circle of friends that can guide them to
-                know Jesus
+              Tu contribución puede hacer la diferencia y promover la ayuda para jóvenes en riesgo, los cuales a través de DBO pueden recibir una oportunidad de estudio, alimento o de un circulo solido de amistades que lo puedan encaminar a conocer a Jesús.
             </p>
         </div>
       </div>
@@ -319,11 +286,33 @@ export default {
   height: 95vh;
 }
 
+.carousel-control-prev-icon{
+  height: 4rem;
+  width: 4rem;
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+  background-size:70%;
+    background-color:rgba(0,0,0,0.8);
+    border-radius: 50%;
+}
+.carousel-control-next-icon{
+  height: 4rem;
+  width: 4rem;
+  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+  background-size:70%;
+  background-color:rgba(0,0,0,0.8);
+  border-radius: 50%;
+}
+
+.carousel-inner{
+  height: 90vh;
+}
+
 @media screen and (max-width: 600px) {
   .map-container {
     height: auto;
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+
 }
 </style>
