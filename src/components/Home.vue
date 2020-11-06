@@ -119,13 +119,13 @@
         </div>
 
         <div class="col-sm" v-scroll-reveal.reset="{delay: 1250,duration: 1000,opacity: 0,distance: '100px',}">
-          <img width="150" src="images/quienessomos.jpeg" class="mb-3" />
+          <img width="150" src="images/meaning.png" class="mb-3" />
           <br />
-          <strong>WHAT DOES DBO MEAN</strong>
+          <strong>QUÉ SIFNIFICA DBO</strong>
           <br />
           <center class="mt-2">
-            Una familia, integrada por muchas personas con una visión de poder a través del servicio entablar relaciones con personas desde niños, adolescentes, jóvenes y adultos. 
-            Lo que representa es una propuesta de cambio, servicio y amor al prójimo. Una oportunidad para las grandes necesidades de la humanidad. Promueve el mensaje de Jesucristo como su principal bandera.
+            Una familia integrada por amigos sirviendo a Dios y al prójimo con la visión de poder mostrar su bondad por medio doe servicio a quienes no lo conocen! Lo que representa es una propuesta de cambio, servicio y amor. 
+            <!-- Una oportunidad para las grandes necesidades de la humanidad. Promueve el menaje de Jesucristo como su principal bandera! -->
           </center>
         </div>
       </div>
@@ -136,7 +136,7 @@
     <div class="mt-5 header parallax map-container text-white" style="height:auto;padding: 3rem;background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.73)),url('https://www.savethechildren.org/content/dam/global/images/countries/guatemala/guatemala-girls-m173492-hero.jpg/_jcr_content/renditions/cq5dam.thumbnail.1700.1700.jpg');">
       <div class="row">
         <div class="col-12 text-center mt-5 mb-5">          
-          <h1 class="text-capitalize">How your support has an impact</h1>
+          <h1 class="text-capitalize">Como tu Ayuda tiene un Impacto</h1>
         </div>
       </div>
 
@@ -160,7 +160,7 @@
 
         <div class="col-md-4">
           <img src="images/family.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
-          <h5 class="mt-3 bold"> FAMILIa </h5>
+          <h5 class="mt-3 bold"> FAMILIA </h5>
           <p>
             Los hogares en Guatemala en los últimos 3 años aproximadamente se registran 25,000; el dolor latente y la desintegración extraoficial de matrimonios que se separan, pero no divorcian es uno de los grandes conflictos los cuales también son uno de los principales factores de riesgo para que niños sean involucrados en las pandillas.
           </p>
@@ -197,11 +197,13 @@ export default {
   data() {
     return {
       info: {
-        title: "Guatemala",
-        content:
-          "DBO Ministries has mainly worked with homless and people in risk areas.",
+        title: "",
+        content:"",
       },
     };
+  },
+  mounted(){
+    this.showInfoDeparment("guatemala")
   },
   methods: {
     showInfoDeparment(args) {
@@ -210,28 +212,28 @@ export default {
           this.info = {
             title: "Quiché",
             content:
-              "Quiché is a department of Guatemala. It is in the heartland of the K'iche' people, to the north-west of Guatemala City. The capital is Santa Cruz del Quiché.",
+              "Departamento situado en el norocidente del país con una población de más de 800,000 personas con 4 idiomas mayas y español es uno de los departamentos multiculturales en Guatemala. Afectado al igual que chimaltenango por la desnutrición, pobreza extrema y analfabetismo.",
           };
           break;
         case "sacatepequez":
           this.info = {
             title: "Sacatepequez",
             content:
-              "Sacatepéquez is one of the 22 departments of Guatemala. The name comes from Sacatepéquez, a city from November 21, 1542 until July 29, 1773 when it was destroyed by the 1773 Guatemalan Earthquake. Sacatepéquez means grasshill in the Nahuatl language.",
+              "Uno de los sitios más reconocidos a nivel internacional ya que cuenta con Antigua Guatemala como su mayor fuerza económica a través del turismo, con una población de 330,469 personas es afectada por personas en situación de calle en la plaza principal. Cuenta con una amplia historia la cual se refleja en su arquitectura y cuidado siendo asi declarada patrimonio de la nación.",
           };
           break;
         case "chimaltenango":
           this.info = {
             title: "Chimaltenango",
             content:
-              "Located to the east are Guatemala Department, home to Guatemala City, and Sacatepéquez Department, while also bordered by Quiché Department and Baja Verapaz Department to the north, Escuintla Department and Suchitepéquez Department to the south, and Sololá Department to the west. The capital of Chimaltenango is located about 54 kilometers away from Guatemala City.",
+              "Departamento situado a aproximadamente 50 kilómetros de la ciudad de Guatemala, con aproximadamente una población de casi 700,000 habitantes en 16 municipios, uno de los departamentos golpeados por el conflicto armado, con mayor migración en el país. Gran parte de su población está afectada por la pobreza, desnutrición, violencia y familias divididas."
           };
           break;
         default:
           this.info = {
-            title: "Chimaltenango",
+            title: "El país de Guatemala",
             content:
-              "Located to the east are Guatemala Department, home to Guatemala City, and Sacatepéquez Department, while also bordered by Quiché Department and Baja Verapaz Department to the north, Escuintla Department and Suchitepéquez Department to the south, and Sololá Department to the west. The capital of Chimaltenango is located about 54 kilometers away from Guatemala City.",
+              "País de la eterna primavera uno de los países afectados por la distribución de la riqueza, ya que se considera que el 75% de ella se encuentra en manos de 25 familias, con índice de 18% de analfabetismo que equivale a más de 2.5 millones de personas. En medio de su riqueza natural es extraño darnos cuenta que estos índices son tan altos. Por lo tanto las necesidades necesitan una respuesta contundente, es alli donde DBO ministerios respondiendo al llamado del Señor sirve cada día.",
           };
           break;
       }
@@ -315,4 +317,5 @@ export default {
   }
 
 }
+
 </style>

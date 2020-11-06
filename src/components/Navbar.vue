@@ -14,13 +14,13 @@
           <router-link active-class="active" class="nav-link" to="/" exact>INICIO</router-link>          
         </li>
         <li class="nav-item">
-          <router-link active-class="active" class="nav-link" to="about">ACERCA DE</router-link>          
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">COMO AYUDAR</a>
+          <router-link active-class="active" class="nav-link" to="about">QUIENES SOMOS</router-link>          
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">QUE HACEMOS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">COMO AYUDAR</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">CONTACTO</a>

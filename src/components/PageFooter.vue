@@ -35,8 +35,15 @@
 
                 <div class="col-md-3">
                     <p style="padding:10px">
-                        <i class="mr-4 fab fa-facebook fa-2x"></i>
-                        <i class="mr-4 fab fa-youtube fa-2x"></i> 
+                        <a href="https://www.facebook.com/dboministerios" class="yellow" target="_blank">
+                            <i class="mr-4 fab fa-facebook fa-2x"></i>
+                        </a>
+                        <a href="https://www.instagram.com/dbo_ministerios/" class="yellow" target="_blank">
+                            <i class="mr-4 fab fa-instagram fa-2x"></i> 
+                        </a>
+                        <a href="https://www.youtube.com/channel/UC4bgBXqvnvfd3jFSgPeVLfw" class="yellow" target="_blank">
+                            <i class="mr-4 fab fa-youtube fa-2x"></i> 
+                        </a>
                         <i class="mr-4 fab fa-paypal fa-2x"></i> <br>
 
                         <p class="mt-5">
@@ -77,6 +84,10 @@
     #footer{
         /* margin-top: 80px;         */
         background: #111;        
+    }
+
+    #footer a:hover{
+        color: #fff;
     }
 
     .pill {
