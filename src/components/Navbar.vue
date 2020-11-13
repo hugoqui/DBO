@@ -20,9 +20,10 @@
             QUIENES SOMOS
           </a>
           <div class="dropdown-menu">
-            <router-link class="dropdown-item" active-class="dropdown-item-active" to="about">ACERCA DE DBO</router-link>
+            <router-link class="dropdown-item" active-class="dropdown-item-active" to="about" exact>ACERCA DE DBO</router-link>
             <router-link class="dropdown-item" active-class="dropdown-item-active" to="about#history">HISTORIA</router-link>
             <router-link class="dropdown-item" active-class="dropdown-item-active" to="about#faith">DECLARACIÓN DE FE</router-link>
+            <router-link class="dropdown-item" active-class="dropdown-item-active" to="about#alliance">DECLARACIÓN DE FE</router-link>
             
           </div>
         </li>

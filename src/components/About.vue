@@ -181,7 +181,30 @@
                 </div>
             </div>  
 
-            <!--  -->
+            <!-- Alliance -->
+            <div id="alliance" class="header parallax" style="background-image: url('/images/alliance.jpg'); background-position-y:top; height:100vh">
+                <h1 class="display-1 text-right mr-5 mt-5 pr-3 text-white" style="border-right:solid 5px #FFC11C">Alianzas</h1>
+            </div>
+
+            <div class="row m-5">
+                <div class="col-12 text-dark m-3">
+                    <div class="text-center">
+                        <img src="images/nicodemus.jpg" class="img-fluid mb-3" alt="nicodemus" style="width:20rem">
+                    </div>
+                    <p>
+                        Nicodemus trabaja para rescatar, restaurar y reconstruir las vidas de los jóvenes en transición a la edad adulta, permitiéndoles liberar su potencial. Equipamos y empoderamos a los jóvenes para que vivan de manera interdependiente, libres de la pobreza, dejando un legado duradero y permitiéndoles ser embajadores en sus comunidades y su mundo.
+                    </p>
+                </div>
+                
+                <div class="col-12 text-dark m-3">
+                    <div class="text-center">
+                        <img src="images/tesoro.jpg" class="img-fluid mb-3" alt="nicodemus" style="width:30rem">
+                    </div>
+                    <p>
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                    </p>
+                </div>
+            </div> 
 
         </div>              
        
