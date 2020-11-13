@@ -526,6 +526,10 @@ export default {
 <style>
 	.st0{fill:#000333;}
 	.st1{fill:#DDDDDD;}
-	.st2{fill:#FFC11C;}
+	.st2{fill:#FFC11C; transition: all 600ms;}
 	.st3{fill:#7C7C7C;}
+
+	.st2:hover{
+		fill: #fff34c;		
+	}
 </style>

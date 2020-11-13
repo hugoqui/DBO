@@ -71,7 +71,7 @@
             <div class="row">
                 <div class="col-12  text-center">
                     <p>
-                        DBO Ministries is a registered nonprofit organization. All donations are tax deductible in full or in part. <br>
+                        <!-- DBO Ministries is a registered nonprofit organization. All donations are tax deductible in full or in part. <br> -->
                         © Copyright 2020. All Rights Reserved.
                     </p>
                 </div>

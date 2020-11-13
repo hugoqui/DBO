@@ -1,7 +1,7 @@
 <template>
 <div> 
   <nav class="navbar navbar-expand-lg navbar-light bg-yellow fixed-top " >
-    <a class="navbar-brand" href="#"><img alt="Logo DBO" style="height:65px" src="images/black_logo.png"></a>
+    <a class="navbar-brand" href="/"><img alt="Logo DBO" style="height:65px" src="images/black_logo.png"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -13,9 +13,25 @@
         <li class="nav-item">
           <router-link active-class="active" class="nav-link" to="/" exact>INICIO</router-link>          
         </li>
-        <li class="nav-item">
-          <router-link active-class="active" class="nav-link" to="about">QUIENES SOMOS</router-link>          
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" :class="isAbout?'active':''" href="#" id="navbarDropdown" role="button" 
+             data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            QUIENES SOMOS
+          </a>
+          <div class="dropdown-menu">
+            <router-link class="dropdown-item" active-class="dropdown-item-active" to="about">ACERCA DE DBO</router-link>
+            <router-link class="dropdown-item" active-class="dropdown-item-active" to="about#history">HISTORIA</router-link>
+            <router-link class="dropdown-item" active-class="dropdown-item-active" to="about#faith">DECLARACIÓN DE FE</router-link>
+            
+          </div>
         </li>
+
+
+        <!-- <li class="nav-item">
+          <router-link active-class="active" class="nav-link" to="about">QUIENES SOMOS</router-link>          
+        </li> -->
+
         <li class="nav-item">
           <a class="nav-link" href="#">QUE HACEMOS</a>
         </li>
@@ -26,7 +42,7 @@
           <a class="nav-link" href="#">CONTACTO</a>
         </li>
         <li class="nav-item border bg-dark pl-2 pr-2" style="border-radius:16px">
-          <a class="nav-link yellow text-warning" href="#" >DONACIONES</a>
+          <router-link class="nav-link yellow text-warning" to="donations" >DONACIONES</router-link>
         </li>
         
       </ul>
@@ -40,7 +56,32 @@
 </div>
 </template>
 
+<script>
+export default {
+  watch:{
+    $route:function(val){
+      if (val.name=="About Us") {
+        this.isAbout = true
+      } else {
+        this.isAbout = false
+      }
+
+    }
+  },
+  data(){
+    return{
+      isAbout:false,
+    }
+  }
+}
+</script>
+
 <style>
   .nav-item{ margin-left: 20px; margin-right: 20px}
-  .nav-link { font-family:Arial;}
+  .nav-link, .dropdown-item { font-family:Arial;}
+  .dropdown-menu, .dropdown-item{background: #FFC11C !important; color:#111 !important}
+
+  .dropdown-item-active{
+    font-weight: bold;
+  }
 </style>

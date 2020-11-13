@@ -67,9 +67,9 @@
             Nos hemos dedicado principalmente al trabajo en calles y áreas de riesgo cubriendo necesidades básicas y humanas que todos necesitas, pero no todos poseen. 
           </p>
 
-          <button class="btn btn-warning text-white btn-lg">
+          <a class="btn btn-warning text-white btn-lg" href="https://lb.benchmarkemail.com//listbuilder/signupnew?UOpPXfYpHY4tJnE673dETP5pwVnAjsSIXaL3uIi4JVPtO5iNRn8gS049TyW7spdJ" target="_blank">
             Suscríbete a Nuestro Boletín de Noticias!
-          </button>
+          </a >
         </div>
       </div>
     </div>
@@ -100,9 +100,7 @@
           <strong>VISION</strong>
           <br />
           <center class="mt-2">
-            To achieve integral and spiritual development in people of our
-            society with different living conditions, difficulties, physical,
-            emotional and spiritual needs.
+            Lograr el desarrollo integral y espiritual en personas de nuestra sociedad con diferentes condiciones de vida, dificultades, necesidades físicas, emocionales y espirituales.
           </center>
         </div>
 
@@ -112,9 +110,7 @@
           <strong>MISION</strong>
           <br />
           <center class="mt-2">
-            We are a Christ-centered ministry that seeks through our actions to
-            transform and empower the lives of those most in need with love,
-            power, dedication, passion, service and example.
+            Somos un ministerio centrado en Cristo que busca a través de nuestras acciones transformar y empoderar las vidas de los más necesitados con amor, poder, dedicación, pasión, servicio y ejemplo.
           </center>
         </div>
 
@@ -124,7 +120,7 @@
           <strong>QUÉ SIFNIFICA DBO</strong>
           <br />
           <center class="mt-2">
-            Una familia integrada por amigos sirviendo a Dios y al prójimo con la visión de poder mostrar su bondad por medio doe servicio a quienes no lo conocen! Lo que representa es una propuesta de cambio, servicio y amor. 
+            Una familia integrada por amigos sirviendo a Dios y al prójimo con la visión de poder mostrar su bondad por medio del servicio a quienes no lo conocen! Lo que representa es una propuesta de cambio, servicio y amor. 
             <!-- Una oportunidad para las grandes necesidades de la humanidad. Promueve el menaje de Jesucristo como su principal bandera! -->
           </center>
         </div>
@@ -306,7 +302,7 @@ export default {
 }
 
 .carousel-inner{
-  height: 90vh;
+  height: 100vh;
 }
 
 @media screen and (max-width: 600px) {

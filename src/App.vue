@@ -24,7 +24,7 @@ export default {
 
 <style>
 
-html,body{overflow-x: hidden;}
+html,body{overflow-x: hidden;   scroll-behavior: smooth;}
 
 .bg-yellow{background: #FFC11C;}
 .yellow {color:#FFC11C}
@@ -39,4 +39,6 @@ html,body{overflow-x: hidden;}
 .black {color: #000;}
 
 .bold{font-weight: bold;}
+
+
 </style>
