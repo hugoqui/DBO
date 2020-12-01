@@ -1,9 +1,18 @@
 <template>
-  <main class="mb-5">
+    <main class="">
       <div class=" parallax header" 
             style="background:url(images/donation-bg.jpg); background-size:cover; " >
           
-          <h1 class="text-center text-white display-3" style="margin-top:10rem; text-shadow:0px 0px 16px #000">
+          <h1 class="text-center text-white display-2" style="margin-top:10%;  text-shadow:0px 0px 16px #000">
+              ¡¡MUCHAS GRACIAS!!
+            </h1>
+      </div>
+    </main>
+  <!-- <main class="mb-5">
+      <div class=" parallax header" 
+            style="background:url(images/donation-bg.jpg); background-size:cover; " >
+          
+          <h1 class="text-left text-white display-2" style="margin-top:3rem; margin-left:5rem; text-shadow:0px 0px 16px #000">
               DONACIONES
             </h1>
       </div>
@@ -66,41 +75,41 @@
         </div>
     </div>
 
-  </main>
+  </main> -->
 </template>
 
 <script>
 export default {
-    data(){
-        return {
-            amount:20,
-            porpuse:'kids',
-            frequency: 'una vez',
-            propuses: [
-                {name: "kids", title: "DBO Kid's"},
-                {name: "antigua", title: "Sale Antigua"},
-                {name: "desayunos", title: "Desayunos\n con Amor"},
-                {name: "cultos", title: "Cultos"},
-                {name: "familias", title: "Apoyo a Familias"},
-                {name: "pueblo", title: "Nuestro Pueblo"},
-                {name: "becas", title: "Becas Escolares"},
-                {name: "administrativo", title: "Gastos Administrativos"},
-                {name: "clinicas", title: "Clínicas"},
-                {name: "inlges", title: "Clases de Inglés"},
-            ]
-        }
-    }
-
-}
+  data() {
+    return {
+      amount: 20,
+      porpuse: "kids",
+      frequency: "una vez",
+      propuses: [
+        { name: "kids", title: "DBO Kid's" },
+        { name: "antigua", title: "Sale Antigua" },
+        { name: "desayunos", title: "Desayunos\n con Amor" },
+        { name: "cultos", title: "Cultos" },
+        { name: "familias", title: "Apoyo a Familias" },
+        { name: "pueblo", title: "Nuestro Pueblo" },
+        { name: "becas", title: "Becas Escolares" },
+        { name: "administrativo", title: "Gastos Administrativos" },
+        { name: "clinicas", title: "Clínicas" },
+        { name: "inlges", title: "Clases de Inglés" },
+      ],
+    };
+  },
+};
 </script>
 
 <style lang="css" scoped>
-.p-active{
-    background: #333 !important;
-    color:#FFC11C;
-    border: 4px solid #ffc11c;    
+.p-active {
+  background: #333 !important;
+  color: #ffc11c;
+  border: 4px solid #ffc11c;
 }
-.opts{
-    transition:all 600ms;
+.opts {
+  transition: all 600ms;
+  cursor: pointer;
 }
 </style>

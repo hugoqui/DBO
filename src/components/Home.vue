@@ -26,6 +26,7 @@
           <div style="background-image:url(images/bg4.jpg); background-size:cover; height:100vh"/>
         </div>
       </div>
+      
       <a class="carousel-control-prev" href="#carouselExampleSlidesOnly" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
@@ -40,9 +41,9 @@
     <div class="container-fluid border">
       
       <div class="row text-center dark bold bg-dark p-3" style="height: 4rem; font-size:1.2rem">
-        <div class="col yellow m-2">AMOR</div>
-        <div class="col yellow m-2">PASION</div>
-        <div class="col yellow m-2">SERVICIO</div>
+        <div class="col yellow m-2">LOVE</div>
+        <div class="col yellow m-2">PASSION</div>
+        <div class="col yellow m-2">SERVICE</div>
       </div>
     </div>
 
@@ -61,14 +62,11 @@
         </div>
         <div class="col-md-5">
           <p class="dark">
-            DBO ministerios está trabajando con la niñez, juventud y comunidad de Chimaltenango, Antigua Guatemala y Quiche, enfocando nuestra función en el desarrollo integral proveyendo alimentación, educación, salud, formación humana, consejería y evangelismo.
-          </p>
-          <p>
-            Nos hemos dedicado principalmente al trabajo en calles y áreas de riesgo cubriendo necesidades básicas y humanas que todos necesitas, pero no todos poseen. 
+            DBO Ministries is working with the children, youth and communities of Chimaltenango, Antigua and Quiche, focusing on fundamental development providing nutrition, education, healthcare, human formation, counseling and evangelism. We have decicated ourselves to working in the streets and in áreas of high risk covering basic human needs that all have, but aren´t always met because of scarce resources. 
           </p>
 
           <a class="btn btn-warning text-white btn-lg" href="https://lb.benchmarkemail.com//listbuilder/signupnew?UOpPXfYpHY4tJnE673dETP5pwVnAjsSIXaL3uIi4JVPtO5iNRn8gS049TyW7spdJ" target="_blank">
-            Suscríbete a Nuestro Boletín de Noticias!
+            Subscribe to our monthly newsletter!
           </a >
         </div>
       </div>
@@ -79,7 +77,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-5 offset-md-1">
-            <h1 class="text-center text-white">Donde Trabajamos</h1>
+            <h1 class="text-center text-white">Where we work</h1>
             <map-vue class="" @showinfo="showInfoDeparment($event)" />
           </div>
           <div class="col-md-5 text-white">
@@ -100,28 +98,27 @@
           <strong>VISION</strong>
           <br />
           <center class="mt-2">
-            Lograr el desarrollo integral y espiritual en personas de nuestra sociedad con diferentes condiciones de vida, dificultades, necesidades físicas, emocionales y espirituales.
+            The visión of DBO Ministries is to achieve fundamental and spiritual development in people of our society. Focusing on physical, spiritual and emotional needs of those living in extreme poverty, in the streets and in áreas of high risk. 
           </center>
         </div>
 
         <div class="col-sm" v-scroll-reveal.reset="{delay: 650, duration: 1000, opacity: 0, distance: '100px',}">
           <img width="150" src="images/mision.png" class="mb-3" />
           <br />
-          <strong>MISION</strong>
+          <strong>MISSION</strong>
           <br />
           <center class="mt-2">
-            Somos un ministerio centrado en Cristo que busca a través de nuestras acciones transformar y empoderar las vidas de los más necesitados con amor, poder, dedicación, pasión, servicio y ejemplo.
+            We are a Christ-centered ministry seeking through our actions to transform and empower the lives of those most in need and rejected by conventional society. Actions that reflect the Word of God charged with love, power, dedication, passion, service and example. 
           </center>
         </div>
 
         <div class="col-sm" v-scroll-reveal.reset="{delay: 1250,duration: 1000,opacity: 0,distance: '100px',}">
           <img width="150" src="images/meaning.png" class="mb-3" />
           <br />
-          <strong>QUÉ SIFNIFICA DBO</strong>
+          <strong>What does DBO mean?</strong>
           <br />
           <center class="mt-2">
-            Una familia integrada por amigos sirviendo a Dios y al prójimo con la visión de poder mostrar su bondad por medio del servicio a quienes no lo conocen! Lo que representa es una propuesta de cambio, servicio y amor. 
-            <!-- Una oportunidad para las grandes necesidades de la humanidad. Promueve el menaje de Jesucristo como su principal bandera! -->
+            A family made up of friends serving God and our neighbors with the visión of being able to show His kindness through service to those who do not know. What we represent is a proposal for change, service and love.             
           </center>
         </div>
       </div>
@@ -132,49 +129,48 @@
     <div class="mt-5 header parallax map-container text-white" style="height:auto;padding: 3rem;background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.73)),url('https://www.savethechildren.org/content/dam/global/images/countries/guatemala/guatemala-girls-m173492-hero.jpg/_jcr_content/renditions/cq5dam.thumbnail.1700.1700.jpg');">
       <div class="row">
         <div class="col-12 text-center mt-5 mb-5">          
-          <h1 class="text-capitalize">Como tu Ayuda tiene un Impacto</h1>
+          <h1 class="text-capitalize">How does your help make an impact?</h1>
         </div>
       </div>
 
       <div class="row text-center">
-        <div class="col-md-4">          
+        <div class="col-md-4 zoom">          
           <img src="images/nutricion.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
-          <h5 class="mt-3 bold text-uppercase"> Nutrición </h5>
+          <h5 class="mt-3 bold text-uppercase"> Nutrition </h5>
           <p>
-              Hasta el día de hoy durante el año el porcentaje de desnutrición en Guatemala ha subido un 200% aproximadamente según estadísticas del ministerio de salud publica. Para la realidad nacional lamentablemente estos no son casos que remiten a las áreas rurales del país si no también se extiende a las áreas urbanas. 
+             During this year(2020) the percentage of malnutrition in Guatemala has gone up approximately 200%according to statistics from the ministry of public health. In reality, these are not cases that relate to the rural áreas of the country, mainly the urba centers. 
           </p>
         </div>
 
-        <div class="col-md-4">           
+        <div class="col-md-4 zoom">           
           <img src="images/education.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
-          <h5 class="mt-3 bold"> EDUCACIÓN </h5>
+          <h5 class="mt-3 bold"> Education </h5>
           <p>
-            Ante la problemática actual la deserción escolar ha sido un factor importante, con datos que según el mineduc alcanzan casi un 35% de niños que han abandonado el sistema educativo.
-            La niñez ha sido vulnerada y afectada por la falta de oportunidades de la realidad nacional.
+            Faced with the current problems, school dropout has been an important factor, data from the ministry of education says that somewhere around 35% of children have dropped out of school. Children have been affected by the lack of opportunities and the national reality.
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 zoom">
           <img src="images/family.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
-          <h5 class="mt-3 bold"> FAMILIA </h5>
+          <h5 class="mt-3 bold"> Family </h5>
           <p>
-            Los hogares en Guatemala en los últimos 3 años aproximadamente se registran 25,000; el dolor latente y la desintegración extraoficial de matrimonios que se separan, pero no divorcian es uno de los grandes conflictos los cuales también son uno de los principales factores de riesgo para que niños sean involucrados en las pandillas.
+            The households in Guatemala in the last 3 years approximately registered 25,000; the latent pain and unofficial disintegration of marriages that separate, but do not divorce is one of the great conflicts which are also one of the main risk factors for children to be involved in gangs.
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 zoom">
             <img src="images/answer.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
-            <h5 class="mt-3 bold"> NUESTRA RESPUESTA </h5>
+            <h5 class="mt-3 bold"> Our Response </h5>
             <p>
-              Al identificar estas necesidades no podemos quedarnos sin una respuesta nuestro llamado y misión nos impulsa cada día para amar y servir a Dios tanto como al prójimo.
+              When we identify these needs we can´t sit down and not answer the call. Our call and misión impel us to work each and every day to love and serve God as well as our neighbors. 
             </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 zoom">
           <img src="images/contribution.jpg" class="img-fluid rounded-circle mb-3" alt="DBO"> <br>
-            <h5 class="mt-3 bold"> TU CONTRIBUCIÓN </h5>
+            <h5 class="mt-3 bold"> Your contribution </h5>
             <p>
-              Tu contribución puede hacer la diferencia y promover la ayuda para jóvenes en riesgo, los cuales a través de DBO pueden recibir una oportunidad de estudio, alimento o de un circulo solido de amistades que lo puedan encaminar a conocer a Jesús.
+              Your contribution can make a difference and promote help for at risk youth who through DBO can receive an opportunity to study, recieve food or form a solid circle of friends who can lead them to know Jesus.
             </p>
         </div>
       </div>
@@ -194,12 +190,12 @@ export default {
     return {
       info: {
         title: "",
-        content:"",
+        content: "",
       },
     };
   },
-  mounted(){
-    this.showInfoDeparment("guatemala")
+  mounted() {
+    this.showInfoDeparment("guatemala");
   },
   methods: {
     showInfoDeparment(args) {
@@ -208,28 +204,28 @@ export default {
           this.info = {
             title: "Quiché",
             content:
-              "Departamento situado en el norocidente del país con una población de más de 800,000 personas con 4 idiomas mayas y español es uno de los departamentos multiculturales en Guatemala. Afectado al igual que chimaltenango por la desnutrición, pobreza extrema y analfabetismo.",
+              "A department located in the northwest part of the country with a population of more tan 800,000. With 4 Mayan languages and Spanish spoken, it is one of the multicultural departments in Guatemala. Like Chimaltenango, it is deeply affected by malnutrition, extreme poverty and illiteracy.",
           };
           break;
         case "sacatepequez":
           this.info = {
             title: "Sacatepequez",
             content:
-              "Uno de los sitios más reconocidos a nivel internacional ya que cuenta con Antigua Guatemala como su mayor fuerza económica a través del turismo, con una población de 330,469 personas es afectada por personas en situación de calle en la plaza principal. Cuenta con una amplia historia la cual se refleja en su arquitectura y cuidado siendo asi declarada patrimonio de la nación.",
+              "One of the most internationally recognized sites. Antigua, Guatemala´s greatest economic force is tourism, with a population of 330,469. Many people live on the streets in the main square. It has a long history which is reflected in its architecture and care. It has been declared a natural heritage. ",
           };
           break;
         case "chimaltenango":
           this.info = {
             title: "Chimaltenango",
             content:
-              "Departamento situado a aproximadamente 50 kilómetros de la ciudad de Guatemala, con aproximadamente una población de casi 700,000 habitantes en 16 municipios, uno de los departamentos golpeados por el conflicto armado, con mayor migración en el país. Gran parte de su población está afectada por la pobreza, desnutrición, violencia y familias divididas."
+              "A deprtment located approximately 50 kilometers from Guatemala City, with a popultaion of almost 700,000 inhabitants in 16 municipalities. One of the departments greatly affected by armed conflicto, with the highest migration in the country. Much of its population is affected by poverty, malnutrition, violence and divided families ",
           };
           break;
         default:
           this.info = {
-            title: "El país de Guatemala",
+            title: "The country of Guatemala",
             content:
-              "País de la eterna primavera uno de los países afectados por la distribución de la riqueza, ya que se considera que el 75% de ella se encuentra en manos de 25 familias, con índice de 18% de analfabetismo que equivale a más de 2.5 millones de personas. En medio de su riqueza natural es extraño darnos cuenta que estos índices son tan altos. Por lo tanto las necesidades necesitan una respuesta contundente, es alli donde DBO ministerios respondiendo al llamado del Señor sirve cada día.",
+              "Land of Eternal Spring is one of the countries affected by the distribution of wealth, since it is known that 75% of it is in the hands of 25 families, with an illiteracy rate of 18% that is equivalent to more tan 2.5 million people. In the midst of its natural wealth, it is hard to realice that these rates are so high. Therefore, these needs warrant a strong response, it is here where DBO Ministries answers the call to serve each and every day. ",
           };
           break;
       }
@@ -284,24 +280,24 @@ export default {
   height: 95vh;
 }
 
-.carousel-control-prev-icon{
+.carousel-control-prev-icon {
   height: 4rem;
   width: 4rem;
-  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
-  background-size:70%;
-    background-color:rgba(0,0,0,0.8);
-    border-radius: 50%;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3e%3c/svg%3e");
+  background-size: 70%;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 50%;
 }
-.carousel-control-next-icon{
+.carousel-control-next-icon {
   height: 4rem;
   width: 4rem;
-  background-image:url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
-  background-size:70%;
-  background-color:rgba(0,0,0,0.8);
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3e%3cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3e%3c/svg%3e");
+  background-size: 70%;
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 50%;
 }
 
-.carousel-inner{
+.carousel-inner {
   height: 100vh;
 }
 
@@ -311,7 +307,5 @@ export default {
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
-
 }
-
 </style>

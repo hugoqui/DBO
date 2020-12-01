@@ -4,33 +4,34 @@
         <div class="container yellow" style="padding:20px 0px;">
             <div class="row mt-5 mb-5">
                 <div class="col-md-3">
-                    <h3>QUIENES SOMOS</h3>
-                    <router-link to="/" class="pill yellow">Historia</router-link>
-                    <router-link to="/" class="pill yellow">Declaración de Fe</router-link>
-                    <router-link to="/" class="pill yellow">Nuestro Equipo</router-link>
-                    <router-link to="/" class="pill yellow">Misión</router-link>
-                    <router-link to="/" class="pill yellow">Visión</router-link>
-                    <router-link to="/" class="pill yellow">Testimonios</router-link>
-                    <router-link to="/" class="pill yellow">Alianzas</router-link>
+                    <h3>WHO WE ARE</h3>
+                    <router-link to="/about" class="pill yellow">About Us</router-link>
+                    <router-link to="/about#history" class="pill yellow">History</router-link>
+                    <router-link to="/about#faith" class="pill yellow">Declaration of Fatih</router-link>
+                    <router-link to="/about#team" class="pill yellow">Our Team</router-link>
+                    <router-link to="/about#vision" class="pill yellow">Vision</router-link>
+                    <router-link to="/about#mission" class="pill yellow">Mission</router-link>
+                    <router-link to="/about#mission" class="pill yellow">Testimonies</router-link>
+                    <router-link to="/about#alliance" class="pill yellow">Partnerships</router-link>
                 </div>
                 
                 
                 <div class="col-md-3">
-                    <h3>QUE HACEMOS</h3>
-                    <router-link to="/" class="pill yellow">DBO Kids</router-link>
-                    <router-link to="/" class="pill yellow">Sale Antigua</router-link>
-                    <router-link to="/" class="pill yellow">Worship Night</router-link>
-                    <router-link to="/" class="pill yellow">Desayunos con Amor</router-link>
-                    <router-link to="/" class="pill yellow">Becas Escolares</router-link>
-                    <router-link to="/" class="pill yellow">Programas de Familias</router-link>
-                    <router-link to="/" class="pill yellow">Misión Nuestro Pueblo Nuestra Familia</router-link>
+                    <h3>WHAT WE DO</h3>
+                    <router-link to="/whatwedo#" class="pill yellow">DBO Kids</router-link>
+                    <router-link to="/whatwedo#antigua" class="pill yellow"> Antigua</router-link>
+                    <router-link to="/whatwedo#worship" class="pill yellow">Worship Night</router-link>
+                    <router-link to="/whatwedo#breakfast" class="pill yellow">Breakfast with love</router-link>
+                    <router-link to="/whatwedo#family" class="pill yellow">Family Programs</router-link>
+                    <router-link to="/whatwedo#sponsor" class="pill yellow">School Scolarships</router-link>
+                    <router-link to="/whatwedo#people" class="pill yellow">Mission our Community, Our Family</router-link>
                 </div>
                 
                 <div class="col-md-3">
-                    <h3>COMO AYUDAR</h3>
-                    <router-link to="/" class="pill yellow">Voluntariado</router-link>
-                    <router-link to="/" class="pill yellow">Forma parte del Equipo</router-link>
-                    <router-link to="/" class="pill yellow">Asóciese con Nosotros</router-link>                    
+                    <h3>HOW CAN YOU HELP</h3>
+                    <router-link to="/help#volunteer" class="pill yellow">Volunteering</router-link>
+                    <router-link to="/help#team" class="pill yellow">Become part of our team</router-link>
+                    <router-link to="/help#aliance" class="pill yellow">Partner with us</router-link>                    
                 </div>
 
                 <div class="col-md-3">
@@ -44,10 +45,14 @@
                         <a href="https://www.youtube.com/channel/UC4bgBXqvnvfd3jFSgPeVLfw" class="yellow" target="_blank">
                             <i class="mr-4 fab fa-youtube fa-2x"></i> 
                         </a>
-                        <i class="mr-4 fab fa-paypal fa-2x"></i> <br>
-
+                        <a href="https://wa.me/50246933937" class="yellow" target="_blank">
+                            <i class="mr-4 fab fa-whatsapp fa-2x"></i> 
+                        </a>
+                        
                         <p class="mt-5">
-                            +502 34567890 <br>                       
+                            info@dboministries.org <br>
+                            +502 7725-4762 <br>                       
+                            +502 4693-3937 <br>                       
                             © DBO Ministerios, 2020
                         
                     </p>
@@ -81,23 +86,23 @@
 </template>
 
 <style>
-    #footer{
-        /* margin-top: 80px;         */
-        background: #111;        
-    }
+#footer {
+  /* margin-top: 80px;         */
+  background: #111;
+}
 
-    #footer a:hover{
-        color: #fff;
-    }
+#footer a:hover {
+  color: #fff;
+}
 
-    .pill {
-        display: block;
-        margin-top: 1rem;
-        min-height: 2rem;
-    }
+.pill {
+  display: block;
+  margin-top: 1rem;
+  min-height: 2rem;
+}
 
-    .pill:hover{
-        color:#ddd;
-        text-decoration: none;
-    }
+.pill:hover {
+  color: #ddd;
+  text-decoration: none;
+}
 </style>

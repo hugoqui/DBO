@@ -9,36 +9,70 @@
 </template>
 
 <script>
-import Navbar from "./components/Navbar.vue"
+import Navbar from "./components/Navbar.vue";
 // import Home from"./components/Home.vue"
-import PageFooter from"./components/PageFooter.vue"
+import PageFooter from "./components/PageFooter.vue";
 // import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
-    Navbar ,  PageFooter    
-  }
-}
+    Navbar,
+    PageFooter,
+  },
+};
 </script>
 
 <style>
+html,
+body {
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
 
-html,body{overflow-x: hidden;   scroll-behavior: smooth;}
+.bg-yellow {
+  background: #ffc11c;
+}
+.yellow {
+  color: #ffc11c;
+}
 
-.bg-yellow{background: #FFC11C;}
-.yellow {color:#FFC11C}
+.bg-white {
+  background: #ffffff;
+}
+.white {
+  color: #ffffff !important;
+}
 
-.bg-white {background: #ffffff;}
-.white {color: #ffffff !important;}
+.bg-dark {
+  background: #202020 !important;
+}
+.dark {
+  color: #202020 !important;
+}
 
-.bg-dark {background: #202020 !important;}
-.dark {color: #202020 !important;}
+.bg-black {
+  background: #000;
+}
+.black {
+  color: #000;
+}
 
-.bg-black {background: #000;}
-.black {color: #000;}
+.bold {
+  font-weight: bold;
+}
 
-.bold{font-weight: bold;}
+.zoom > img {
+  transition: all 300ms;
+}
+.zoom:hover > img {
+  transform: scale(1.1);
+}
 
-
+.zoom2 {
+  transition: all 500ms;
+}
+.zoom2:hover {
+  transform: scale(1.1);
+}
 </style>
