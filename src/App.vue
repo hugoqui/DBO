@@ -1,7 +1,11 @@
 <template>
   <div>    
     <navbar> </navbar>
-    <!-- <home> </home> -->
+    
+    <a style="position:fixed; bottom:1rem; width:100px; height:100px; background:#111; right:1rem; border-radius:50%; padding-top:40px; z-index:9; border:solid #ffc11c"
+      class="yellow text-center"
+     href="https://donorbox.org/dbo-ministries-1" target="_blank">DONATE</a>
+
     <router-view/>
     <page-footer></page-footer>
     

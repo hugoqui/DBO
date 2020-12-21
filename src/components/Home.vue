@@ -12,17 +12,17 @@
 
 
       <div class="carousel-inner">
-        <div class="carousel-item active">
+        <div class="carousel-item active" data-interval="2000">
           <!-- <img src="images/bg1.jpg"  alt="..." /> -->
           <div style="background-image:url(images/bg1.jpg); background-size:cover; height:100vh"/>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2000">
           <div style="background-image:url(images/bg2.jpg); background-size:cover; height:100vh"/>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2000">
           <div style="background-image:url(images/bg3.jpg); background-size:cover; height:100vh"/>
         </div>
-        <div class="carousel-item">
+        <div class="carousel-item" data-interval="2000">
           <div style="background-image:url(images/bg4.jpg); background-size:cover; height:100vh"/>
         </div>
       </div>
